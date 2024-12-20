@@ -1,0 +1,35 @@
+/* index.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./assets/rail.jpg'); /* Path relative to the public folder */
+    background-size: cover;         /* Ensure the image covers the entire viewport */
+    background-position: center;    /* Center the image */
+    background-repeat: no-repeat;   /* Prevent tiling */
+    min-height: 100%;                  /* Full viewport height */
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.5); /* 50% transparent white */
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;              /* Adjust form size */
+    margin: auto;              /* Center horizontally */
+    text-align: center;        /* Center text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    backdrop-filter: blur(10px); /* Adds a glass-like blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    
+}
+
+.qr-scanner-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    background: none; /* Remove the background image */
+    padding: 20px;    /* Optional padding for spacing */
+    text-align: center;
+}

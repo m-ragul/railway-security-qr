@@ -1,0 +1,77 @@
+/* PassengerForm.css */
+.form-container {
+    width: 100%;
+    max-width: 600px !important ;
+    margin: 50px auto;
+    margin-top: 100px !important ;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.background {
+    background-image: url('./assets/rail.jpg'); /* Update the path based on your file location */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passengerForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.passengerForm h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inputGroup {
+    margin-bottom: 15px;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: #45a049;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+.submitted-data-container {
+    margin-top: 20px;
+}
+
+.qr-code-wrapper {
+    margin: 20px 0;
+}

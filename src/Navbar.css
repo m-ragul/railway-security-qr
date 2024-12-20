@@ -1,0 +1,43 @@
+/* Navbar.css */
+.navbar {
+    background-color: #4CAF50; /* A green shade to complement the theme */
+    padding: 10px;
+    position: relative; /* Ensure positioning context for absolute elements */
+}
+
+.nav-container {
+    text-align: center; /* Center the title */
+    position: relative;
+}
+
+.nav-title {
+    display: inline-block; /* Make title centered */
+    color: white;
+    font-size: 24px;
+    margin: 0 auto; /* Center the title horizontally */
+}
+
+.nav-links {
+    position: absolute; /* Position buttons absolutely */
+    right: 10px; /* Align to the right */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+}
+
+.nav-link, .nav-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px; /* Add padding to make links look like buttons */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Add border-radius for a consistent look */
+    cursor: pointer;
+    background: none; /* Remove default background for buttons */
+    outline: none; /* Remove default outline for buttons */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover, .nav-btn:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    color: #4CAF50; /* Ensure text color changes to match the theme */
+}
